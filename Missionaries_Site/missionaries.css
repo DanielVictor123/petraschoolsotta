@@ -17,7 +17,7 @@ header {
   margin: 0 10px;
 }
 
-.hero {
+.main_img {
   background: url("hero-image.jpg") no-repeat center center/cover;
   height: 300px;
   display: flex;
@@ -28,12 +28,12 @@ header {
   position: relative;
   overflow: hidden;
 }
-.hero h2 {
+.main_img h2 {
   font-size: 2.5em;
   margin: 0;
   animation: fadeIn 1s ease-in;
 }
-.hero button {
+.main_img button {
   background-color: #fff;
   color: #053862;
   border: none;
@@ -44,12 +44,12 @@ header {
   transition: background-color 0.3s ease, transform 0.3s ease;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-.hero button:hover {
+.main_img button:hover {
   background-color: #053862;
   color: white;
   transform: scale(1.05);
 }
-.missionary-card {
+.missionaries_card {
   color: #053862;
   background: white;
   border: 1px solid #ddd;
@@ -59,14 +59,14 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.missionary-card:hover {
+.missionaries_card:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   background-color: #053862;
   color: #fff;
 }
 
-.add-card {
+.missionariesAdd_card {
   background: #053862;
   color: white;
   display: flex;
@@ -77,16 +77,16 @@ header {
   padding: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.add-card:hover {
+.missionariesAdd_card:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-.add-icon {
+.missionariesAdd-icon {
   font-size: 2em;
   margin-right: 10px;
 }
 
-.missionary-list {
+.missionaries_list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
